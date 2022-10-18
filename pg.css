@@ -1,0 +1,81 @@
+/*logo nav*/
+.logo {
+    width: 160px;
+
+}
+
+#nav {
+    background: linear-gradient(90deg,rgba(255,255,255,1),rgba(248,193,19,1)100%);
+    box-shadow: 2px 2px 2px 2px #cdcdcd;
+    position:sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#navbarNav ul li a {
+    color: #000;
+    font-weight: bold;
+
+}
+#navbarNav ul li a:hover {
+    color: #fff;
+    background: #000;
+    
+}
+#imgBanner {
+    max-height: 460px;
+    opacity: 95%;
+
+}
+
+/* dando margin */
+.sectionCarrosel {
+    margin-top: 5px;
+}
+
+/* ajustando quem somos */
+#mainQuemSomos {
+    margin-top:100px;
+    font-size: 18px;
+
+}
+.main-title {
+    color: black;
+    text-align:center;
+    font-size: 40px;
+    
+}
+.destaque-texto{
+    color: #3498db;
+    font-weight: bold;
+    font-size:20px;
+
+}
+.destaque {
+    font-size: 16px;
+    color: #000;
+    padding: 15px;
+    padding-top:10px;
+    font-weight: 500px;
+
+}
+.icones {
+    color:#3498db;
+    font-size: 40px;
+    
+    
+}
+.parallax {
+    /* The image used */
+    background-image: url("/banner/f1.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+

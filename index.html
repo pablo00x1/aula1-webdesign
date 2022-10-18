@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Lande page</title>
     <link rel="stylesheet" type="text/css" href="_css/pg.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
   
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light" id="nav">
+    <nav class="navbar navbar-expand-lg bg-light" id="nav" >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="logo.png" class="logo">
@@ -21,16 +21,16 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quem Somos</a>
+                <a class="nav-link" href="#mainQuemSomos">Quem Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portifólio</a>
+                <a class="nav-link" href="#blocos">Portifólio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#contato">Contato</a>
               </li>
             </ul>
           </div>
@@ -144,6 +144,74 @@
           </div>
 
         </div>
+      </section>
+
+      <section id="contato">
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12">
+                <h3 class="main-title">Contato</h3>
+
+              </div>
+          </div>
+        </div>
+
+        <div class="container-fluid col-md-6"><!--- caixa do formulario -->
+          <form class="row g-1" action="https://formsubmit.co/najiwef183@kaimdr.com" method="POST">
+
+          </form><!--- inicio formulario -->
+            <div class="col-md-12">
+              <label class="form-label">
+                E-mail
+              </label>
+              <input type="email" name="email" class="form-control" placeholder="Digite seu e-mail" required>
+            </div>
+              <div class="col-md-12">
+                <label class="form-label">
+                  CEP:
+
+                </label>
+                <input type="text" name="cep" class="form-control" required placeholder="Digite seu CEP">
+
+
+              </div>
+              <div class="col-md-12">
+                <label class="form-label">
+                  Rua:
+
+                </label>
+                <input type="text" name="rua" class="form-control">
+
+
+              </div>
+              <div class="col-md-12">
+                <label class="form-label">
+                 Bairro:
+
+                </label>
+                <input type="text" name="bairro" class="form-control">
+
+
+              </div>
+              <div class="col-md-12">
+                <label class="form-label">
+                Fale Conosco
+                </label>
+                <textarea name="faleconosco" class="form-control" rows="7" cols  placeholder="digite seu texto"></textarea>
+
+
+              </div>
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-primary bt-enviar">Enviar</button>
+
+              </div>
+
+
+
+          </form>
+
+        </div>
+
       </section>
 
     </main>
